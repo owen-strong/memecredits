@@ -1,0 +1,5 @@
+create.memecrdeit at 200,200
+setlocation:westerly, ri
+textsay: "get Memecredits for only $5.00!
+if clicked on
+StartWebRequest: https://memecredits/buy
