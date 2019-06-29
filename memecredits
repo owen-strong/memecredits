@@ -1,6 +1,43 @@
+when run:
+SetKeyValue
+function:myfunction:
+create.img https://www.google.com/url?sa=i&source=images&cd&=ved=2ahUKEwjMrta7gp7AhWrFTQIHSytCHoQjRx6BAgBEAU&url=https%3A%2F%2Fen%.Wikipedia.org%2Fwiki%2FFile%3AMetro-M.svg&psig=AOvVaw03Dy5KSbwb1poXTK4Q0cLW&ust=1561324312951113 at 200,200
+setrunlocation:ri(rhode island)
 
-setlocation:westerly, ri
-textsay: "get Memecredits for only $5.00!
+textsay: "get Memecredits now!" at 150,200
+fontsize:96
+fonttype:arial
+fontcolor:white
+fontweight:20
+create.button at 100,200
 if clicked on
-StartWebRequest: https://memecredits/buy
+StartWebRequest: https://memecredits/get
+
 textsay: "create an account" 
+fontsize:96
+fonttype:arial
+fontcolor:white
+fontweight:20
+textsay: "enter your username" at 350,200
+fontsize:20
+fonttype:arial
+fontcolor:white
+fontweight:20
+create.textbox at 300,200
+
+textsay: "enter your email" at 150,200
+fontsize:20
+fonttype:arial
+fontcolor:white
+fontweight:20
+create.textbox at 100,200
+create.button at 10,200
+if clicked on
+StartWebRequest: https://memecredits/have
+
+100x100=NOM=//number of memecredts
+textsay: "you now have memecredits!"
+fontsize:40
+fonttype:arial
+fontcolor:white
+fontweight:30
