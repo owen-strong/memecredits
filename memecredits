@@ -13,12 +13,14 @@ create.button at 100,200
 if clicked on
 StartWebRequest: https://memecredits/get
 
-textsay: "create an account" 
+# Create an account
+x,750,y,200
 fontsize:96
 fonttype:arial
 fontcolor:white
 fontweight:20
-textsay: "enter your username" at 350,200
+### Enter your username 
+x, 350,y,200
 fontsize:20
 fonttype:arial
 fontcolor:white
